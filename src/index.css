@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+  color: #212529;
+  display: flex; /* Enable flex layout */
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Ensure body takes at least full viewport height */
+}
+
+code {
+  font-family: 'Courier New', monospace;
+}
+
+.navbar-link:hover {
+  color: #212529;
+}
+
+.navbar-icon-hover {
+    transition: transform 0.3s ease;
+    display: inline-block; /* Make sure it's treated as a block for transitions */
+}
+
+.navbar-icon-hover:hover {
+  transform: scale(1.2);
+}
+
+.homepage-card-hover:hover {
+  transform: scale(1.05); /* Slightly increase size on hover */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1); /* Add a একটু stronger shadow */
+}
+
+footer {
+  margin-top: auto; /* Push footer to the bottom */
+}
